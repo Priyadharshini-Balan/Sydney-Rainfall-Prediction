@@ -1,5 +1,3 @@
----
-
 # 🌧️ Rainfall Prediction Using Machine Learning  
 *A complete end‑to‑end ML pipeline with model comparison*
 
@@ -36,17 +34,11 @@ This is a **binary classification** problem.
 ## 📂 Project Structure
 
 ```
-├── data/                         # Dataset (raw or processed)
-│   └── sydney_rain prediction.csv
-│
-├── notebooks/                    # Jupyter notebooks
-│   └── rainfall_prediction.ipynb
-│
-├── .gitignore                    # Git ignore rules (Python + Jupyter + data science)
-├── README.md                     # Project documentation
-└── requirements.txt              # Python dependencies
-
-
+├── data/                 # Dataset (not included in repo)
+├── notebooks/            # Jupyter notebooks (optional)
+├── src/                  # Python scripts (optional)
+├── README.md             # Project documentation
+└── requirements.txt      # Python dependencies
 ```
 
 ---
@@ -72,18 +64,18 @@ This is a **binary classification** problem.
 
 ### 2️⃣ Models Implemented
 
-|         Model       |                      Description                    |
-|---------------------|-----------------------------------------------------|
-| Logistic Regression |              Baseline linear classifier             |
-| Statsmodels Logit   | Statistical interpretation (p‑values, significance) |
-|       LDA           |              Linear Discriminant Analysis           |
-|         KNN         |       Distance‑based classifier with scaling        |
-|     Decision Tree   |                  Basic tree model                   |
-|      Bagging        |               Ensemble of decision trees            |
-|    Random Forest    |             Strong ensemble baseline                |
-|   Gradient Boosting |             Sequential boosting model               |
-|       AdaBoost      |             Boosting with stumps & RF               |
-|        XGBoost      |               Final optimized model                 |
+| Model | Description |
+|-------|-------------|
+| Logistic Regression | Baseline linear classifier |
+| Statsmodels Logit | Statistical interpretation (p‑values, significance) |
+| LDA | Linear Discriminant Analysis |
+| KNN | Distance‑based classifier with scaling |
+| Decision Tree | Basic tree model |
+| Bagging | Ensemble of decision trees |
+| Random Forest | Strong ensemble baseline |
+| Gradient Boosting | Sequential boosting model |
+| AdaBoost | Boosting with stumps & RF |
+| XGBoost | Final optimized model |
 
 ---
 
