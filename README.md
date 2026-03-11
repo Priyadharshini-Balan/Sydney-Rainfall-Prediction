@@ -34,11 +34,17 @@ This is a **binary classification** problem.
 ## 📂 Project Structure
 
 ```
-├── data/                 # Dataset (not included in repo)
-├── notebooks/            # Jupyter notebooks (optional)
-├── src/                  # Python scripts (optional)
-├── README.md             # Project documentation
-└── requirements.txt      # Python dependencies
+├── data/
+│   ├── processed/                !
+│   │   └── sydney_rain prediction.csv   
+│   └── raw/         
+│       └── sydney_rain prediction.xlsx
+├── notebooks/
+│   ├── rainfall_prediction.ipynb
+├── src/
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -234,5 +240,6 @@ If you want, I can also generate:
 - A model comparison table  
 - A project banner image  
 - A GitHub‑optimized description  
+
 
 Just tell me what you'd like to add.
