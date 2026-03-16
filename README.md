@@ -1,5 +1,5 @@
 # 🌧️ Rainfall Prediction Using Machine Learning  
-*A complete end‑to‑end ML pipeline with different types of ML and ML model comparison*
+*A complete end‑to‑end ML pipeline with different types of ML algorithms and ML model comparison*
 
 ---
 
