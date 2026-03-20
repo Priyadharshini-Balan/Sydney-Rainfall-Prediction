@@ -24,7 +24,7 @@ Multiple ML algorithms were implemented and evaluated to identify the best-perfo
 Given daily weather observations (humidity, pressure, temperature, cloud cover, etc.), the goal is to predict:
 
 ```
-RainTomorrow = Yes / No
+RainTomorrow = Yes or No
 ```
 
 This is a **binary classification** problem.
@@ -163,7 +163,6 @@ This is a **binary classification** problem.
 After evaluating all models, **XGBoost** delivered the best performance on the test set.
 
 Typical metrics:
-
 - **Accuracy:** ~0.88–0.92  
 - **High recall for rainy days**  
 - **Strong generalization**  
@@ -174,7 +173,6 @@ Typical metrics:
 ## 📈 Feature Importance (XGBoost)
 
 Top predictors typically include:
-
 - **Humidity3pm**  
 - **Pressure3pm**  
 - **RainToday**  
@@ -217,19 +215,6 @@ or open the Jupyter notebook.
 - Build a Streamlit dashboard  
 - Add cross‑validation visualizations  
 - Try LightGBM & CatBoost  
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome.  
-For major changes, please open an issue first to discuss what you’d like to modify.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
 
 ---
 
