@@ -178,21 +178,15 @@ cd rainfall-prediction
 ```
 
 ### 2. Install dependencies
-
 ```bash
 pip install -r requirements.txt
 ```
-
 ### 3. Run the script or notebook
-
 ```bash
 python main.py
 ```
-
 or open the Jupyter notebook.
-
 ---
-
 ## 📌 Future Improvements
 - Add SHAP explainability for XGBoost  
 - Deploy model using FastAPI  
