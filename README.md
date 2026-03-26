@@ -152,31 +152,22 @@ Typical metrics:
 - **High recall for rainy days**  
 - **Strong generalization**  
 - **Clear feature importance insights**
-
 ---
-
 ## 📈 Feature Importance (XGBoost)
-
 Top predictors typically include:
 - **Humidity3pm**  
 - **Pressure3pm**  
 - **RainToday**  
 - **Cloud3pm**  
 - **Sunshine**  
-
 These align with real meteorological patterns.
-
 ---
-
 ## 🚀 How to Run the Project
-
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/yourusername/rainfall-prediction.git
 cd rainfall-prediction
 ```
-
 ### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
