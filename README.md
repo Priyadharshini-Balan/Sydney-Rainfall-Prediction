@@ -9,7 +9,8 @@ It includes:
 - Model training  
 - Hyperparameter tuning  
 - Model comparison  
-- Feature importance analysis  
+- Feature importance analysis
+  
 Multiple ML algorithms were implemented and evaluated to identify the best-performing model.
 ---
 ## 🧠 Problem Statement
