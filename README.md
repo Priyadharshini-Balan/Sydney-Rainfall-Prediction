@@ -95,15 +95,11 @@ This is a **binary classification** problem.
 ### ✔️ Decision Tree
 - Basic tree with `max_depth=4`  
 - Tuned version with `min_samples_leaf=25`, `max_depth=5`
-
 ---
-
 ### ✔️ Bagging Classifier
 - 1000 bootstrapped trees  
 - Reduced variance significantly  
-
 ---
-
 ### ✔️ Random Forest
 - 1010 trees  
 - Strong performance  
@@ -111,24 +107,18 @@ This is a **binary classification** problem.
 - Tuned parameters included:  
   - `max_features`  
   - `min_samples_split`
-
 ---
-
 ### ✔️ Gradient Boosting
 - Baseline model  
 - Tuned version with:  
   - `learning_rate=0.02`  
   - `n_estimators=500`  
   - `max_depth=2`
-
 ---
-
 ### ✔️ AdaBoost
 - Version 1: Decision stumps  
 - Version 2: Boosting a Random Forest (stronger)
-
 ---
-
 ### ⭐ XGBoost (Best Model)
 - Baseline:  
   - `max_depth=5`, `n_estimators=5000`, `learning_rate=0.3`
@@ -138,15 +128,10 @@ This is a **binary classification** problem.
   - `subsample`  
   - `colsample_bytree`  
   - `reg_alpha`
-
 - Final tuned model achieved the **highest accuracy**.
-
 ---
-
 ## 🏆 Final Results
-
 After evaluating all models, **XGBoost** delivered the best performance on the test set.
-
 Typical metrics:
 - **Accuracy:** ~0.88–0.92  
 - **High recall for rainy days**  
