@@ -203,13 +203,4 @@ or open the Jupyter notebook.
 
 ---
 
-If you want, I can also generate:
 
-- `requirements.txt`  
-- A `main.py` script  
-- A model comparison table  
-- A project banner image  
-- A GitHub‑optimized description  
-
-
-Just tell me what you'd like to add.
