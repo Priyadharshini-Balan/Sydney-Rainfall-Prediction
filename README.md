@@ -1,8 +1,6 @@
 # 🌧️ Rainfall Prediction Using Machine Learning  
 *A complete end‑to‑end ML pipeline with different types of ML algorithms and ML model comparison*
-
 ---
-
 ## 📌 Project Overview
 
 This project builds a full machine‑learning workflow to **predict whether it will rain tomorrow** using a real‑world weather dataset.  
@@ -16,23 +14,16 @@ It includes:
 - Feature importance analysis  
 
 Multiple ML algorithms were implemented and evaluated to identify the best-performing model.
-
 ---
-
 ## 🧠 Problem Statement
 
 Given daily weather observations (humidity, pressure, temperature, cloud cover, etc.), the goal is to predict:
-
 ```
 RainTomorrow = Yes or No
 ```
-
 This is a **binary classification** problem.
-
 ---
-
 ## 📂 Project Structure
-
 ```
 ├── data/
 │   ├── processed/                !
@@ -46,9 +37,7 @@ This is a **binary classification** problem.
 ├── README.md
 └── requirements.txt
 ```
-
 ---
-
 ## 🛠️ Technologies Used
 
 - **Python**
@@ -57,9 +46,7 @@ This is a **binary classification** problem.
 - **Scikit‑learn**
 - **XGBoost**
 - **Statsmodels**
-
 ---
-
 ## 📊 Workflow Summary
 
 ### 1️⃣ Data Preprocessing
@@ -91,9 +78,7 @@ This is a **binary classification** problem.
 - Baseline model  
 - Evaluated using accuracy, confusion matrix, classification report  
 - Explored threshold tuning (0.2, 0.3, etc.)
-
 ---
-
 ### ✔️ LDA (Linear Discriminant Analysis)
 - Often outperforms logistic regression  
 - Good for linearly separable data  
