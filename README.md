@@ -43,6 +43,7 @@ This is a **binary classification** problem.
 - **Statsmodels**
 ---
 ## 📊 Workflow Summary
+
 ### 1️⃣ Data Preprocessing
 - Handling missing values  
 - Encoding categorical variables  
