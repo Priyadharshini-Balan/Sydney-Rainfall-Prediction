@@ -194,13 +194,9 @@ or open the Jupyter notebook.
 ---
 
 ## 📌 Future Improvements
-
 - Add SHAP explainability for XGBoost  
 - Deploy model using FastAPI  
 - Build a Streamlit dashboard  
 - Add cross‑validation visualizations  
 - Try LightGBM & CatBoost  
-
 ---
-
-
