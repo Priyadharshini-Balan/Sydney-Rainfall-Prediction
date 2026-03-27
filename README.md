@@ -1,5 +1,5 @@
 # 🌧️ Rainfall Prediction Using Machine Learning  
-*A complete end‑to‑end ML pipeline with different types of ML algorithms and ML model comparison*
+*A complete end‑to‑end ML pipeline with different types of ML algorithms and comparing and figuring out the best model*
 ---
 ## 📌 Project Overview
 This project builds a full machine‑learning workflow to **predict whether it will rain tomorrow** using a real‑world weather dataset.  
