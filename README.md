@@ -52,6 +52,7 @@ This is a **binary classification** problem.
 - Encoding categorical variables  
 - Train–test split  
 - Feature scaling (StandardScaler for KNN & boosting models)
+  
 ### 2️⃣ Models Implemented
 | Model | Description |
 |-------|-------------|
@@ -66,6 +67,7 @@ This is a **binary classification** problem.
 | AdaBoost | Boosting with stumps & RF |
 | XGBoost | Final optimized model |
 ---
+
 ## 🧪 Model Training & Evaluation
 ### ✔️ Logistic Regression
 - Baseline model  
